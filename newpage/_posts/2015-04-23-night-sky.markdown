@@ -3,7 +3,7 @@ title:  "Fuoka"
 subtitle: "福岡"
 author: "Pao"
 avatar: "img/authors/aaa.jpg"
-image: "img/Fuoka.jpg"
+image: "img/fuoka.jpg"
 date:   2015-04-23 12:12:12
 ---
 
