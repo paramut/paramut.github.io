@@ -4,7 +4,7 @@ subtitle: "橋錦帯橋"
 author: "Pao"
 avatar: "img/authors/aaa.jpg"
 image: "img/kinta.jpg"
-date:   2015-04-22 12:12:12
+date:   2015-04-23 12:12:12
 ---
 
 ### Kintai-Kyo Bridge
