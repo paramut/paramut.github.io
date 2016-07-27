@@ -78,7 +78,7 @@ layout: compress
 
 <div class="container">
     <header class="header">
-        <h1>Paramut Blog<span>Travel around Japan</span></h1>
+      <img src="img/neko.gif">
         <nav class="links">
             <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
             <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
@@ -92,7 +92,7 @@ layout: compress
         <div class="pattern pattern--hidden"></div>
         <!-- cards -->
         <div class="wrapper">
-            {% for post in site.posts %}
+            {% for post in paginator.posts %}
             <div class="card" data-id="{{ post.id }}">
                 <div class="card__container card__container--closed">
                     <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +131,20 @@ layout: compress
 </div>
 
 
-
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
 
 
 
