@@ -5,6 +5,6 @@ keywords: Modern, Blogging, Fun
 author: Wferr
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-paginate: 6
+paginate: 12
 markdown: kramdown
 gems: [jekyll-paginate]
